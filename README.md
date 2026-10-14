@@ -59,23 +59,6 @@ or create accounts. Password confirmation is required and checked for minimum
 length, but matching the two passwords is not implemented. Comparing two fields
 requires JavaScript or server-side validation.
 
-## Manual Testing
-
-1. In Task 1, submit an empty form and check that required fields block submission.
-2. Enter `not-an-email`, then `alex@example.com`, to compare invalid and valid email formats.
-3. Check the maximum text lengths in the contact form.
-4. In Task 3, fill and clear fields to observe error and success feedback.
-5. In Task 4, try a password shorter than eight characters, then one with at least eight characters.
-6. Check that Task 4 requires a gender and country, allows multiple hobbies, and clears the form with Reset.
-7. Resize the browser: Bootstrap grid fields should stack on narrow screens and share rows on wider screens.
-
-## Submission
-
-The assignment requires publishing the project with GitHub Pages or Netlify and
-submitting the GitHub repository link by the deadline specified in Moodle.
-Students must also defend the assignment during the practice lesson and explain
-the HTML, Bootstrap classes, and validation behavior.
-
 ## Assignment Resources
 
 - [Bootstrap Getting Started](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
